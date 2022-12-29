@@ -20,7 +20,8 @@ The === operand strictly compares two values, thus it is used in the places wher
 ### Examples
 
 Following are some examples of the behavior of the == operator:
-javascript
+
+```javascript
 console.log(2 == 2);
 //output: true, because 2 and 2 are the same.
 
@@ -94,14 +95,16 @@ console.log(student1 === student2);
 
 console.log(student1 === student3);
 //output: false, as student1 and student3 refer to different objects.
+```
 
-javascript
-null === null //true
-undefined === undefined //true
-null === undefined //false
-null == null //true
-undefined == undefined //true
-null == undefined //true
+```javascript
+null === null; //true
+undefined === undefined; //true
+null === undefined; //false
+null == null; //true
+undefined == undefined; //true
+null == undefined; //true
+```
 
 ### 🇮🇹
 
